@@ -1,0 +1,20 @@
+// $redColor: red;
+
+.title::before {
+  content: url(//unsplash.it/2000/200);
+  // background-color: red;
+  font-size: 20px;
+}
+
+.title::after {
+  content: url(//unsplash.it/1998/100);
+  // background-color: red;
+  font-size: 20px;
+}
+
+.title {
+  color: white;
+  font-family: "Bigelow Rules";
+  font-size: 100px;
+  // background-color: $redColor;
+}
